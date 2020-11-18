@@ -9852,6 +9852,11 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
+snekfetch@^3.6.4:
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/snekfetch/-/snekfetch-3.6.4.tgz#d13e80a616d892f3d38daae4289f4d258a645120"
+  integrity sha512-NjxjITIj04Ffqid5lqr7XdgwM7X61c/Dns073Ly170bPQHLm6jkmelye/eglS++1nfTWktpP6Y2bFXjdPlQqdw==
+
 sockjs-client@1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/sockjs-client/-/sockjs-client-1.4.0.tgz#c9f2568e19c8fd8173b4997ea3420e0bb306c7d5"
@@ -10956,6 +10961,13 @@ web-vitals@^0.2.4:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-0.2.4.tgz#ec3df43c834a207fd7cdefd732b2987896e08511"
   integrity sha512-6BjspCO9VriYy12z356nL6JBS0GYeEcA457YyRzD+dD6XYCQ75NKhcOHUMHentOE7OcVCIXXDvOm0jKFfQG2Gg==
+
+webhook-discord@^3.7.7:
+  version "3.7.7"
+  resolved "https://registry.yarnpkg.com/webhook-discord/-/webhook-discord-3.7.7.tgz#54ea6072dad352a0b68276c2a2f7360835f67e26"
+  integrity sha512-qlEucVfun4ZzIhIJGQt8g9ytlSMpnaXiZeOiJCuuGUSSnkmBW5oFFcJHxN0KzC3VgUI0Brkl/i5X0Wf/ljKVXQ==
+  dependencies:
+    snekfetch "^3.6.4"
 
 webidl-conversions@^5.0.0:
   version "5.0.0"
